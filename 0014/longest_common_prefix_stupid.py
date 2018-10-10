@@ -31,4 +31,4 @@ class Solution(object):
 if __name__ == "__main__":
     strs = []
     solution = Solution()
-    print solution.longestCommonPrefix(strs)
+    print(solution.longestCommonPrefix(strs))

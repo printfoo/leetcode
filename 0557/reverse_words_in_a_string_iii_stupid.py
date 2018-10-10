@@ -29,4 +29,4 @@ class Solution(object):
 if __name__ == "__main__":
     s = "Let's take LeetCode contest"
     solution = Solution()
-    print solution.reverseWords(s)
+    print(solution.reverseWords(s))

@@ -65,7 +65,7 @@ if __name__ == "__main__":
     solution = Solution()
     p = solution.addTwoNumbers(x1, y1)
     while True:
-        print p.val,
+        print(p.val),
         p = p.next
         if p == None:
             break

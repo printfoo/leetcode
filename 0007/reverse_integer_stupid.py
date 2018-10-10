@@ -33,4 +33,4 @@ class Solution(object):
 if __name__ == "__main__":
     x = -15342364
     solution = Solution()
-    print solution.reverse(x)
+    print(solution.reverse(x))

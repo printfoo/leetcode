@@ -26,4 +26,4 @@ class Solution(object):
 # Main.
 if __name__ == "__main__":
     x = 0
-    print Solution().isPalindrome(x)
+    print(Solution().isPalindrome(x))

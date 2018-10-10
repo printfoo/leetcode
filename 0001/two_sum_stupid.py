@@ -23,4 +23,4 @@ if __name__ == "__main__":
     nums = [1, 2, 4, 5, 6]
     target = 5
     solution = Solution()
-    print solution.twoSum(nums, target)
+    print(solution.twoSum(nums, target))
