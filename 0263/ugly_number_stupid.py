@@ -30,4 +30,4 @@ class Solution(object):
 # Main.
 if __name__ == "__main__":
     num = 14
-    print Solution().isUgly(num)
+    print(Solution().isUgly(num))
