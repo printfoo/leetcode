@@ -30,7 +30,8 @@ class Solution:
         for r, q in r_and_q:
             heapq.heappush(heap, -q)
             sum_q += q
-            if len(heap) > K: sum_q += heapq.heappop(heap)
+            if len(heap) > K:
+                sum_q += heapq.heappop(heap) # -q so +=
             if len(heap) == K: payment = min(payment, r * sum_q)
         return payment
 
