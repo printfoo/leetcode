@@ -13,10 +13,7 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: List[int]
         """
-        inter, nums1, nums2 = [], {n for n in nums1}, {n for n in nums2}
-        for n in nums1:
-            if n in nums2 and n not in inter: inter.append(n)
-        return inter
+        return list(set(nums1) & set(nums2))
 
 # Main.
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 """
-Solution for Valid Pa;indrome II, Time O(n), Space O(1).
+Solution for Valid Palindrome II, Time O(n), Space O(1).
 
 Idea:
 When meet a mismatch, check 2 potential cases. 
