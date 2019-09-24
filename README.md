@@ -1,4 +1,4 @@
-# Python solution for LeetCode
+# Python solution for LeetCode.
 
-Tracking code practice.  
-Many solutions are not optimized.
+My personal solutions for LeetCode problems.
+This repo is updated very occasionally and very slowly.
