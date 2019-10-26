@@ -1,4 +1,3 @@
-# Python solution for LeetCode.
+# LeetCode Python.
 
-My personal solutions for LeetCode problems.
-This repo is updated very occasionally and very slowly.
+A repo recording my trajectory on LeetCode.
