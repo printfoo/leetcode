@@ -1,4 +1,9 @@
-"""Simulate rain.
+"""
+Solution for Simulate Rain.
+
+Idea:
+Way representation: 100 slots, each 1 centimeter.
+Rain representation: center point random [0, 1], and +- 0.5 for area.
 """
 
 import random
