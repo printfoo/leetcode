@@ -7,6 +7,7 @@ Rain representation: center point random [0, 1], and +- 0.5 for area.
 """
 
 import random
+import numpy as np
 
 class simulateRain:
     def __init__(self):
@@ -36,8 +37,15 @@ class simulateRain:
 
         return True if self.wet_centimeter == 100 else False  # All wet or not.
 
-if __name__ == "__main__":
+def simulate_once():
     sim = simulateRain()
     while True:
         if sim.rain_drop():
-            exit("All wet after {} drops of rain!".format(sim.rain_count))
+            return sim.rain_count
+            
+if __name__ == "__main__":
+    exp = 1000
+    rain_counts = [simulate_once() for _ in range(exp)]
+    mean = np.mean(rain_counts)
+    std = np.std(rain_counts)
+    print("Simulated {} times of rain drops: mean {:.2f}, std {:.2f}.".format(exp, mean, std))
