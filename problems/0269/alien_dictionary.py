@@ -4,8 +4,7 @@ Solution for Alien Dictionary.
 Idea:
 1. Build a DAG.
 2. Topological sort.
-Note: only words (ie leading chars) are sorted lexicographically,
-not individual chars.
+Note: only words (ie leading chars) are sorted lexicographically, not individual chars.
 Note: using visited[] to make sure each node is traversed only once.
 Note: using visiting[] to make sure no cycle, like a lock.
 Corner case 1: words[i] is a prefix of words[i+1] -> shorter comes first
@@ -49,7 +48,7 @@ class Solution:
                         graph[char0].add(char1)
                     break
     
-        # Topolofical sort.
+        # Topological sort.
         alien_order = []
         to_visit = set(graph.keys())
         visited = set()

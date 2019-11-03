@@ -1,5 +1,5 @@
 """
-Stupid solution for 3Sum, O(n^2).
+Solution for 3Sum, O(n^2).
 
 Idea:
 Maintain a residue set for the last element.
